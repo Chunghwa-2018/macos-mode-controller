@@ -11,22 +11,19 @@ set query 	to "{query}"
 set ON_	to "on"
 set OFF	to "off"
 
-if query is equal to ON_ then
-	tell application "System Events"
+
+tell application "System Events"
+	if query is equal to ON_ then
 		tell appearance preferences
 			set dark mode to true
 		end tell
-	end tell
-else if query is equal to OFF then
-	tell application "System Events"
+	else if query is equal to OFF then
 		tell appearance preferences
 			set dark mode to false
 		end tell
-	end tell
-else
-	tell application "System Events"
+	else
 		tell appearance preferences
 			set dark mode to not dark mode
 		end tell
-	end tell
-end if
+	end if
+end tell
