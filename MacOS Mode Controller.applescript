@@ -13,17 +13,13 @@ set OFF	to "off"
 
 
 tell application "System Events"
-	if query is equal to ON_ then
-		tell appearance preferences
+	tell appearance preferences
+		if query is equal to ON_ then
 			set dark mode to true
-		end tell
-	else if query is equal to OFF then
-		tell appearance preferences
+		else if query is equal to OFF then
 			set dark mode to false
-		end tell
-	else
-		tell appearance preferences
+		else 
 			set dark mode to not dark mode
-		end tell
-	end if
+		end if
+	end tell
 end tell
