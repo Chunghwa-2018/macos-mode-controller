@@ -10,8 +10,9 @@ macos version: catalina 10.15.7
 
 ## 演示
 
-<img width="685" alt="image" src="https://user-images.githubusercontent.com/29922837/177329666-75ca5746-f545-409c-9f66-44bcb9439405.png">
-<img width="685" alt="image" src="https://user-images.githubusercontent.com/29922837/177329698-d0deecb1-7bd7-4d66-bedb-a1faf0e67bd5.png">
+<img width="685" alt="image" src="https://user-images.githubusercontent.com/29922837/177696430-c7fa8a7d-ccac-4600-8f5a-51173b585028.png">
+<img width="685" alt="image" src="https://user-images.githubusercontent.com/29922837/177696498-78bd66a1-f633-4507-8b05-c3b623dc5c4b.png">
+
 
 ## 操作指令
 
